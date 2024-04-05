@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellpadding="5" cellspacing="2">
+        <tr>
+            <th><b>Name</b></th>
+            <th><b>Value</b></th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>
+                <label for="fname"></label>
+                <input type="text" id="fname" name="fname" placeholder="Name">
+            </th>
+        </tr>
+        <tr>
+            <th>Sex</th>
+            <th>
+                <input type="radio" id="sex" name="sex">
+                <label for="sex">Female</label>
+                <br>
+                <input type="radio" id="sex" name="sex">
+                <label for="sex">Male</label>
+            </th>
+        </tr>
+        <tr>
+            <th>Eye Color</th>
+            <th>
+                <select name="eyec" id="eyec">
+                    <option value="green">green</option>
+                    <option value="brown">brown</option>
+                    <option value="blue">blue</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>Check all that Apply</th>
+            <th>
+                <input type="checkbox" id="tall" name="tall">
+                <label for="tall">Over 6ft tall</label>
+                <br>
+                <input type="checkbox" id="tall" name="tall">
+                <label for="tall">Over 200 pounds</label>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2">Describe Your Athletic Ability
+                <br>
+                <textarea name="athletic" id="athletic" cols="30" rows="4"></textarea>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <input type="submit" value="Enter My Information">
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
